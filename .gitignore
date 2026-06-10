@@ -1,0 +1,38 @@
+# ── Ambiente virtual Python ──────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Modelos EasyOCR (grandes, baixados pelo script de setup) ─────────────────
+models/easyocr/
+
+# ── PDFs das licenças (dados sensíveis da PoC) ───────────────────────────────
+pdfs/*.pdf
+
+# ── Banco de dados Excel (gerado automaticamente pela aplicação) ─────────────
+data/casos.xlsx
+data/resultados.xlsx
+
+# ── Cache Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Streamlit cache local ────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Arquivos de sistema Windows ──────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Editores ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs e temporários ───────────────────────────────────────────────────────
+*.log
+*.tmp
